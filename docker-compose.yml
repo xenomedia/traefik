@@ -1,0 +1,30 @@
+version: '2'
+services:
+    traefik:
+        image: traefik:1.4.5
+        restart: unless-stopped
+        command: '-c /dev/null --web --docker --logLevel=DEBUG --defaultEntryPoints=''http'',''https'' --entryPoints="Name:https Address::443 TLS:/certs/traefik.cert,/certs/traefik.key" --entryPoints="Name:http Address::80"'
+        networks:
+            - webgateway
+        ports:
+            - '80:80'
+            - '443:443'
+            - '8080:8080'
+        volumes:
+            - '/var/run/docker.sock:/var/run/docker.sock'
+            - './certs:/certs'
+    portainer:
+        image: portainer/portainer
+        restart: unless-stopped
+        networks:
+            - webgateway
+        command: '--no-auth'
+        volumes:
+            - '/var/run/docker.sock:/var/run/docker.sock'
+        labels:
+            - traefik.backend=portainer
+            - traefik.port=9000
+            - 'traefik.frontend.rule=Host:portainer.docker.localhost'
+networks:
+    webgateway:
+        driver: bridge
