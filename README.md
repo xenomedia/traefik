@@ -1,4 +1,4 @@
-# Global Traefik for docker.localhost 
+# Global Traefik for *.test
 
 Clone or download to ~/Sites/traefik
 
@@ -10,7 +10,7 @@ openssl req -new -x509 -nodes -sha1 -days 3650 -key certs/traefik.key > certs/tr
 ```
 
 Fill in your details.
-Enter *.docker.localhost for the Common Name
+Enter *.test for the Common Name
 
 ```bash
 

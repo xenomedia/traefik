@@ -24,7 +24,7 @@ services:
         labels:
             - traefik.backend=portainer
             - traefik.port=9000
-            - 'traefik.frontend.rule=Host:portainer.docker.localhost'
+            - 'traefik.frontend.rule=Host:portainer.test'
 networks:
     webgateway:
         driver: bridge
