@@ -1,0 +1,50 @@
+SHA1 Fingerprint=B3:0F:75:54:00:C2:E2:50:09:C5:4E:C5:31:A4:ED:38:23:86:3E:29
+Certificate:
+    Data:
+        Version: 1 (0x0)
+        Serial Number: 10108681097943063382 (0x8c493fe6869a1b56)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=Illinois, L=Oakbrook Terrace, O=Xeno Media, Inc., CN=*.test/emailAddress=dummy@xenomedia.com
+        Validity
+            Not Before: Feb  9 18:05:19 2018 GMT
+            Not After : Feb  7 18:05:19 2028 GMT
+        Subject: C=US, ST=Illinois, L=Oakbrook Terrace, O=Xeno Media, Inc., CN=*.test/emailAddress=dummy@xenomedia.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:de:28:bd:b0:99:f3:56:28:86:1d:03:08:d3:de:
+                    6f:0c:75:e2:d1:28:f0:47:c4:f6:87:cc:40:cd:a9:
+                    d8:d1:eb:02:6f:48:16:28:7a:25:af:d9:a3:0e:c0:
+                    0e:91:61:fb:62:cf:99:21:a5:28:d5:15:f0:a0:6a:
+                    0b:f0:36:27:cd:a8:fc:2d:cf:d4:dd:bb:7f:7a:40:
+                    91:f7:a4:f1:2d:36:83:48:54:e0:4e:46:34:9e:18:
+                    42:80:d0:67:df:f3:76:5f:b2:94:57:91:0a:d9:4d:
+                    1c:3d:15:8c:96:bd:44:5d:b0:8a:0d:9f:b2:a7:12:
+                    84:89:bf:34:e9:be:29:60:44:87:17:40:01:3b:8b:
+                    6e:7a:bd:36:76:e4:6b:8d:4e:59:b1:28:04:55:5d:
+                    20:ae:76:06:b0:25:92:d0:71:a5:2f:31:35:31:2f:
+                    90:42:61:93:ec:62:7f:d0:1f:3f:b6:25:2a:72:3f:
+                    2d:83:07:b1:e4:78:4d:1a:7b:41:cb:25:62:a5:85:
+                    a4:d2:99:31:96:e3:60:07:53:81:ea:09:38:cf:1c:
+                    a6:cb:14:a4:a1:8c:b6:dd:77:d8:a0:d1:87:0f:be:
+                    37:d4:99:05:19:aa:9f:f1:6b:fd:52:e7:b7:fd:64:
+                    80:79:b3:94:ff:a3:15:09:87:15:77:bd:59:42:46:
+                    49:31
+                Exponent: 65537 (0x10001)
+    Signature Algorithm: sha1WithRSAEncryption
+         5b:be:b4:11:87:e7:8c:22:de:ca:07:7f:1e:4e:f1:c5:93:68:
+         bb:e4:89:1d:3f:ee:4a:c7:31:9d:e6:ce:ed:f4:26:90:e0:01:
+         c4:f1:0c:21:4a:3c:1f:7d:08:53:c4:19:5e:09:ad:87:1b:e6:
+         2a:00:63:a2:a5:88:69:53:2b:c7:cd:8f:8e:9f:2d:d7:c8:3a:
+         2f:ef:9e:6b:57:53:71:b3:4e:e4:6e:f2:2d:9e:79:2a:22:39:
+         3b:ff:54:c8:c1:16:91:28:52:b1:0d:cf:fb:43:39:f5:47:ce:
+         a6:a1:fe:d7:92:b9:a6:da:61:6b:19:c6:9b:d3:56:12:30:89:
+         99:fe:00:32:73:56:4c:d6:5d:c9:a9:a3:5b:76:f4:3c:c8:49:
+         90:55:e2:0c:21:f3:f8:b2:28:6e:98:ec:7a:35:1a:d0:f7:9f:
+         e1:37:de:b3:5d:dc:ad:62:3f:8a:87:b5:cc:0f:57:92:3a:ad:
+         a0:c7:29:13:42:2c:0b:d5:49:04:70:54:83:ff:e9:71:e9:fb:
+         81:a2:7c:7c:42:48:64:6f:ab:07:61:e9:3d:b1:41:79:9d:1a:
+         c9:83:99:ec:f5:cd:32:69:4b:9f:e3:58:db:14:3b:51:34:b8:
+         2f:ab:62:9b:c6:43:84:83:5c:04:7a:9e:fe:32:dc:47:4b:51:
+         e5:7f:fe:ea
