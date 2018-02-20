@@ -17,7 +17,7 @@ services:
         image: portainer/portainer
         restart: unless-stopped
         networks:
-            - webgateway
+            - traefik
         command: '--no-auth'
         volumes:
             - '/var/run/docker.sock:/var/run/docker.sock'
