@@ -5,7 +5,7 @@ services:
         restart: always
         command: '-c /dev/null --web --docker --logLevel=DEBUG --defaultEntryPoints=''http'',''https'' --entryPoints="Name:https Address::443 TLS:/certs/traefik.cert,/certs/traefik.key" --entryPoints="Name:http Address::80"'
         networks:
-            - webgateway
+            - traefik
         ports:
             - '80:80'
             - '443:443'
@@ -26,5 +26,6 @@ services:
             - traefik.port=9000
             - 'traefik.frontend.rule=Host:portainer.test'
 networks:
-    webgateway:
-        driver: bridge
+  traefik:
+    external:
+      name: traefik_default
