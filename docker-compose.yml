@@ -1,7 +1,7 @@
 version: '2'
 services:
     traefik:
-        image: traefik:1.5
+        image: traefik:1.5.2
         restart: always
         command: '-c /dev/null --web --docker --logLevel=DEBUG --defaultEntryPoints=''http'',''https'' --entryPoints="Name:https Address::443 TLS:/certs/traefik.cert,/certs/traefik.key" --entryPoints="Name:http Address::80"'
         networks:
